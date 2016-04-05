@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="search_box_bg">#bfbfbf</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="yunshang_red">#f73631</color>
+    <color name="yunshang_blue">#00479d</color>
+    <color name="yunshang_red_selected">#b82723</color>
+    <color name="yunshang_red_unselected">#fb9a98</color>
+
+    <color name="gray">#606060</color>
+    <color name="gray_detail">#909090</color>
+    <color name="yunshang_background">#EEEEEE</color>
+    <color name="top_background">#f6f6f6</color>
+    <color name="yunshang_border_color">#c9c9c9</color>
+    <color name="bg_gray_login">#ebebeb</color>
+    <color name="yunshang_shangdaohang">#f6f6f6</color>
+    <color name="bright_foreground_light">#606060</color>
+    <color name="bg_ppd_def">#c9c9c9</color>
+    <color name="gray1">#535353</color>
+    <color name="tabs_normal">#919191</color>
+    <color name="tabs_select">#f73631</color>
+    <!--白色-->
+    <color name="w">#ffffff</color>
+    <!--黑色-->
+    <color name="b">#000000</color>
+    <!--红色-->
+    <color name="r">#f73631</color>
+    <!--灰色二级-->
+    <color name="g">#606060</color>
+    <!--灰说明文字-->
+    <color name="g2">#909090</color>
+    <!--描边-->
+    <color name="stroke_line">#cbcbcb</color>
+
+    <color name="orange">#dc6c09</color>
+
+    <color name="color_on">#2b6eff</color>
+    <color name="color_off">#ff565e</color>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改前总价:"
+            android:textColor="@color/g"
+            android:textSize="@dimen/common_text_size3"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/common_marginLeft"
+            android:text="￥300.00"
+            android:textColor="@color/b"
+            android:textSize="@dimen/common_text_size3"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="卖家实付:"
+            android:textColor="@color/g"
+            android:textSize="@dimen/common_text_size3"
+            />
+
+        <TextView
+            android:id="@+id/real_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/common_marginLeft"
+            android:text="￥300.00"
+            android:textColor="@color/r"
+            android:textSize="@dimen/common_text_size3"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/divid1"
+        android:layout_width="match_parent"
+        android:layout_height="16px"
+        android:layout_below="@+id/good_list"
+        android:background="@color/yunshang_background"
+        />
+
+    <RelativeLayout
+        android:id="@+id/base_info"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_below="@+id/good_list"
+        android:paddingBottom="24px"
+        android:paddingLeft="32px"
+        android:paddingRight="32px"
+        android:paddingTop="24px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单号:2015128000007573"
+            android:textColor="@color/g"
+            android:textSize="@dimen/common_text_size4"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="订货人:张三"
+            android:textColor="@color/g"
+            android:textSize="@dimen/common_text_size4"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="2015-12-08 13:24:42"
+            android:textColor="@color/g"
+            android:textSize="@dimen/common_text_size4"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="139********"
+            android:textColor="@color/g"
+            android:textSize="@dimen/common_text_size4"
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        style="@style/line_horizon"
+        android:layout_below="@+id/base_info"/>
+</LinearLayout>

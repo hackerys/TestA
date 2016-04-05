@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        //actionbar颜色
+        <item name="colorPrimary">#1bff1c</item>
+        //状态栏颜色
+        <item name="colorPrimaryDark">#FF4081</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="actionSheetStyle">@style/ActionSheetStyleiOS7</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/BaseAppTheme">
+    </style>
+
+    <style name="line_verticle">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/stroke_line</item>
+    </style>
+
+    <style name="line_horizon">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/stroke_line</item>
+    </style>
+
+    <declare-styleable name="VoiceView">
+        <attr name="color_on" format="color"></attr>
+        <attr name="color_off" format="color"></attr>
+        <attr name="dot_count" format="integer"></attr>
+        <attr name="center_image" format="reference"></attr>
+        <attr name="split_size" format="integer"></attr>
+        <attr name="circle_width" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="SlidLayout">
+        <attr name="head_layout" format="reference"></attr>
+        <attr name="content_layout" format="reference"></attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/tv_seller_product_image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_launcher"/>
+
+        <RelativeLayout
+            android:id="@+id/ll_purchase_order_normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_seller_product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="国水果业"
+                android:textColor="@color/b"
+                android:textSize="@dimen/common_text_size3"/>
+
+            <TextView
+                android:id="@+id/tv_seller_product_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:paddingTop="10dp"
+                android:text="约28斤/箱"
+                android:textColor="@color/g2"
+                android:textSize="@dimen/common_text_size3"/>
+
+            <TextView
+                android:id="@+id/tv_seller_product_shuangdingdan_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="约28.0斤"
+                android:textColor="@color/g2"
+                android:textSize="@dimen/common_text_size3"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_seller_product_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:text="￥3.70"
+                            android:textColor="@color/r"
+                            android:textSize="@dimen/common_text_size1"/>
+
+                        <TextView
+                            android:id="@+id/tv_seller_product_unit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|bottom"
+                            android:text="/斤"
+                            android:textColor="#f73631"
+                            android:textSize="@dimen/common_text_size3"/>
+                    </LinearLayout>
+                    <!--
+                    <TextView
+                        android:id="@+id/tv_to_product_old_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:paddingLeft="5dp"
+                        android:text="￥3.80"
+                        android:textColor="#909090"
+                        android:textSize="@dimen/common_text_size2"/>
+                        -->
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/tv_seller_product_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:paddingRight="10dp"
+                    android:text="x1箱"
+                    android:textColor="@color/b"
+                    android:textSize="@dimen/common_text_size2"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <include layout="@layout/order_footer_layout"></include>
+</LinearLayout>
