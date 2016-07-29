@@ -117,7 +117,7 @@ public class VolleyActivity extends Activity {
      * @param mQueue 请求队列
      */
     private void stringRequest(RequestQueue mQueue) {
-        StringRequest mRequest = new StringRequest("http://192.168.1.53/my.html", new Response.Listener<String>() {
+        StringRequest mRequest = new StringRequest("https://hao.360.cn/", new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 Log.d("Response", response);
@@ -125,7 +125,7 @@ public class VolleyActivity extends Activity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Log.e("onErrorResponse", error.getMessage());
+                Log.e("onErrorResponse", error.getMessage()+"");
             }
         }) {
             @Override
